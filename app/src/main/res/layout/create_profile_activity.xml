@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- layout for CreateProfileActivity -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/full_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/occupation_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/skills_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills (comma separated)"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/interests_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interests (comma separated)"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:id="@+id/create_profile_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:textColor="#9E9E9E"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="onCreateProfileClick" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
