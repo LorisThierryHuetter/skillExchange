@@ -14,7 +14,7 @@
             android:id="@+id/splash_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fullLogo"
+            android:src="@drawable/full_logo"
             android:layout_margin="20dp" />
 
         <TextView
